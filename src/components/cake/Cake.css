@@ -1,0 +1,16 @@
+.cake {
+    min-height: 212px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cake > * {
+    flex: 1 0;
+}
+
+.cake h2 {
+    margin: 0;
+}
